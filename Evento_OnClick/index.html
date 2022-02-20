@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-header">
+        <div class="header">
+            <div class="main-title">
+                <h1>Dojonary</h1>
+            </div>
+    
+            <div class="search">
+                <input type="text" name="inputWord" class="text-search" placeholder="Search">
+            </div>
+    
+            <div class="button">
+                <button class="login" onclick="logout(this)">Login</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="containerData">
+        <div class="container-data">
+            <div class="containerData-left">
+                <div class="definition">
+                    <div class="text-left">
+                        <div class="word">
+                            <p class="word-title">ninja</p>
+                            <p class="word-subtitle">noun</p>
+                            <p class="word-plural">Plural: ninjas</p>
+                        </div>
+                        <div class="button">
+                            <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p>
+                            A practitioner skilled in the <span class="blue-words">Japanese</span> art of <span class="blue-words">ninjutsu</span>
+                        </p> 
+                    </div>
+                </div>
+                <div class="definition">
+                    <div class="text-left">
+                        <div class="word">
+                            <p class="word-title">ninja</p>
+                            <p class="word-subtitle">noun</p>
+                            <p class="word-plural">Plural: ninjas</p>
+                        </div>
+                        <div class="button">
+                            <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p>
+                            A <span class="blue-words">programmer</span> who breaks down problems with <span class="blue-words">zen</span> - like focus
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="containerData-right">
+                <p class="d-text">Dojonary is defined by <span class="you">YOU</span></p>
+                <button class="add-def" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
