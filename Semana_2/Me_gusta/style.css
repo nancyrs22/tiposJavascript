@@ -1,0 +1,58 @@
+*{
+    font-weight: bold;
+}
+
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 28%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+/* .user{
+    font-size: 20px;
+} */
+
+.like-btn{
+    background-color: rgb(255, 250, 173);
+    box-shadow: 2px 2px black;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.pClase{
+    color: blue;
+    background-color: cadetblue;
+    text-decoration: underline;
+}
+
+.contenedor-likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 13%;
+}
